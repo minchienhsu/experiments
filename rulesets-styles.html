@@ -4,7 +4,6 @@
         <title>ruleset style</title>
         <style>
             h1, h2, h3, h4 {
-                background-color: #f98101;
                 color: antiquewhite;
                 font-size: 30px;
                 margin: 0;
@@ -13,16 +12,26 @@
                 color: aqua;
                 /*color: #f98101;*/
             }
+            .important{
+                color: #3dff71;
+                background-color: blanchedalmond;
+            }
+            .uppercase{
+                text-transform: uppercase;
+                background-color: blueviolet;
+            }
+            #the-one{
+                color: rgb(219, 181, 255);
+            }
         </style>
     </head>
     <body>
-        <h1>
-            Heading <span style="color:pink;">one</span></h1>
-        <h2>Heading 2</h2>
+        <h1 class="uppercase">Heading <span id="the-one">one</span></h1>
+        <h2 class="important uppercase">Heading 2</h2>
         <h3>Heading 3</h3>
         <h4>Heading 4</h4>
         <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
+        <h2 class="important uppercase">Heading 2</h2>
         <h3>Heading 3</h3>
         <h4>Heading 4</h4>
     </body>
