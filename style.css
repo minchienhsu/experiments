@@ -1,10 +1,11 @@
 h1, h2, h3, h4 {
-                color: antiquewhite !important;
+                color: antiquewhite;
                 font-size: 30px;
                 margin: 0;
             }
             h1{
-                color: aqua;
+                color: aqua !important;
+                background-color: blueviolet;
                 /*color: #f98101;*/
             }
             .uppercase{
