@@ -1,0 +1,24 @@
+h1, h2, h3, h4 {
+                color: antiquewhite !important;
+                font-size: 30px;
+                margin: 0;
+            }
+            h1{
+                color: aqua;
+                /*color: #f98101;*/
+            }
+            .uppercase{
+                text-transform: uppercase;
+                background-color: rgb(226, 43, 95);
+            }
+            .important{
+                color: #3dff71;
+                background-color: rgb(45, 13, 224);
+            }
+            
+            #the-one{
+                color: rgb(219, 181, 255);
+            }
+            #mejones{
+                color: aquamarine;
+            }
